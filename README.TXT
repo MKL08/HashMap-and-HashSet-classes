@@ -33,3 +33,7 @@ This project is only a first, rudimentary step towards the full solution.
 24.HashMap: Hash table based implementation of the Map interface.It permits null values and null key.
 25.Any methods that has K and V parameters 
 26.You can check it in the Load Factor.
+28.It overwrites the previous one.
+29.It stays in the map.
+30.phoneBook.containsKey("Homer Jay Simpson")
+

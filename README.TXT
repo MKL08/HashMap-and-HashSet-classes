@@ -36,4 +36,7 @@ This project is only a first, rudimentary step towards the full solution.
 28.It overwrites the previous one.
 29.It stays in the map.
 30.phoneBook.containsKey("Homer Jay Simpson")
+31.Nothing shows up 
+32.phoneBook.size()
+
 

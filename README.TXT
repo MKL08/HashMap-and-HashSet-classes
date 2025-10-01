@@ -29,4 +29,7 @@ as ArrayList, HashMap, HashSet, and Random.
 
 This project is only a first, rudimentary step towards the full solution.
 
-
+*****ANSWERS*****
+24.HashMap: Hash table based implementation of the Map interface.It permits null values and null key.
+25.Any methods that has K and V parameters 
+26.You can check it in the Load Factor.

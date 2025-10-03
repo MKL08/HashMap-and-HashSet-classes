@@ -15,7 +15,7 @@ public class Responder
     private ArrayList<String> defaultResponses;
     private String lastDefault;
     private Random random;
-    
+    private HashMap synonymMap;
     /**
      * Construct a Responder - nothing to do
      */
@@ -25,6 +25,7 @@ public class Responder
         defaultResponses=new ArrayList<>();
         lastDefault="";
         random=new Random();
+        synonymMap=new HashMap();
         fillResponsesMap();
         fillDefaultResponses();
     }
@@ -55,6 +56,12 @@ public class Responder
             if(responseMap.containsKey(word))
             {
                 return responseMap.get(word);
+            }else
+            {
+                Object synonym=synonymMap.get(word);
+                if(synonym!=null){
+                    return (String) responseMap.get(synonym);
+                }
             }
         }
         return pickDefaultResponse();

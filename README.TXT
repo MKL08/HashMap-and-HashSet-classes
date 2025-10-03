@@ -40,5 +40,5 @@ This project is only a first, rudimentary step towards the full solution.
 32.phoneBook.size()
 34.They both have a collection of objects
 35.An ArrayList is ordered and a HashSet is not ordered.
-
+36.There is a problem.And you need to use trim/split.
 

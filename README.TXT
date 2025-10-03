@@ -38,5 +38,7 @@ This project is only a first, rudimentary step towards the full solution.
 30.phoneBook.containsKey("Homer Jay Simpson")
 31.Nothing shows up 
 32.phoneBook.size()
+34.They both have a collection of objects
+35.An ArrayList is ordered and a HashSet is not ordered.
 
 

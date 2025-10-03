@@ -43,6 +43,9 @@ public class Responder
         defaultResponses.add("Please tell me more.");
         defaultResponses.add("Can you explain more?");
         defaultResponses.add("Please be more detailed.");
+        defaultResponses.add("How...");
+        defaultResponses.add("Why?...");
+        defaultResponses.add("Who?...");
     }
     
     /**
